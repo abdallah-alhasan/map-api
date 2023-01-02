@@ -1,0 +1,23 @@
+#suggested{
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+#suggested div {
+    display: none;
+}
+
+#suggested div:nth-last-child(-n + 5) {
+    display: block;
+}
+
+.suggested-word{
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.suggested-word:hover{
+    background-color: #c7e4ff57;
+    transform: scale(1, 1.15);
+}
